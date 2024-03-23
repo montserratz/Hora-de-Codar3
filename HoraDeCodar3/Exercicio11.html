@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+
+//11 - Escreva um programa em que o usuário informe 10 valores e escreva quantos desses valores lidos estão entre os números 24 e 42 (incluindo os valores 24 e 42) e quantos deles estão fora deste intervalo.
+
+var Numeros = [];
+var contador = 0;
+var contadorFora = 0
+
+for (var i = 1; i <= 10; i++){
+    var num = parseFloat(prompt("Insira o "+ i + "º número: "));
+    Numeros.push(num);
+
+    
+if (num >= 24 && num <= 42){
+    contador++;  
+}else{
+    contadorFora++;
+}
+}
+
+document.write("Os números que estão entre 24 e 42 foram um total de: " + contador + "<br><br>");
+
+
+
+/*if (Numeros >= 24 && Numeros <= 42){
+    contador++;  
+}else{
+    contadorFora++;
+}*/
+
+
+
+
+document.write("Os números que estão fora deste intervalo são um total de: " + contadorFora + "<br>");
+
+d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+//5 - Faça um algoritmo que calcule e escreva a média aritmética dos dois números inteiros informados pelo usuário e todos os números inteiros entre eles. Considere que o primeiro sempre será menor que o segundo.
+
+var num1 = parseFloat(prompt("Digite o 1º número: "));
+
+var num2 = parseFloat(prompt("Digite o 2º número: "));
+
+var media1 = (num1 + num2)/2;
+
+//Numeros no intervalo
+
+var soma = 0;
+
+var contador = 0;
+
+
+for (var i = num1 + 1; i < num2; i++){
+
+    soma += i;
+    contador++;
+
+
+}
+
+var media2 = soma/contador;
+
+
+alert("A média aritmética dos números informados é: " + media1);
+alert("A média aritmética dos números entre os informados é: " + media2);
+
+
+</script>
